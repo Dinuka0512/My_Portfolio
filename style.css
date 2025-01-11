@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+h2,h1,p{
+    text-align: center;
+    color: white;
+    font-family: "Bebas Neue";
+}
+
+h1{
+    font-size: 100px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    position: relative;
+}
+
+h2{
+    margin-top: 240px;
+    position: relative;
+}
+
+p{
+    font-size: larger;
+}
+
+.text {
+    position: relative;
+    color: white;
+    opacity: 1; /* Start with full opacity */
+    animation: typing 4s steps(30) infinite; /* Apply animation */
+}
+
+@keyframes typing {
+    0% {
+        opacity: 1; /* Full opacity */
+    }
+    50% {
+        opacity: 0; /* Invisible */
+    }
+    100% {
+        opacity: 1; /* Full opacity */
+    }
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
