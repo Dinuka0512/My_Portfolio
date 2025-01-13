@@ -5,8 +5,8 @@
 
 body{
     min-height: 100vh;
-    display: flex;
-    align-content: center;
+    display: block;
+    text-align-all: center;
     justify-content: center;
 }
 
@@ -14,6 +14,7 @@ h2,h1,p{
     text-align: center;
     color: white;
     font-family: "Bebas Neue";
+    text-align-all: center;
 }
 
 h1{
